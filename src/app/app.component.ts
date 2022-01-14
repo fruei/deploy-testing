@@ -59,7 +59,7 @@ export class AppComponent implements OnInit {
 
   submit(): void {
     this.http
-      .post('http://localhost:8000/api/messages', {
+      .post('https://fruei.github.io/deploy-testing/api/messages', {
         username: this.username,
         message: 'echo sending message',
       })
