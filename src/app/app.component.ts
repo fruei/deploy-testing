@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, ElementRef, OnInit, QueryList, Renderer2, ViewChild, ViewChildren } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,23 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent {
   title = 'frueiApp';
 
-  palabra: string = "_hola mundo_";
+  // @ViewChildren('message_body', {read: ElementRef}) message_bodyComp?:QueryList<ElementRef>
+  // @ViewChild('message_body') private draggableElement?: ElementRef;
 
-  listadoDePalabras: string[] = [ "hola 1" , "hola" , "hola", "hola 4", "hola mundo" ];
+  // constructor(private renderer: Renderer2, private host: ElementRef) {
+  // }
 
-  listadoDeNumeros: number[] = [ 1, 3, 5, 6, 7 ];
+  // ngAfterViewChecked() {
+  //   console.log("DOM",document.getElementById("message"))
+  //   // var myobj = document.getElementById("message");
+  //   // myobj?.remove();
+  // }
 
-  puedoMostrar: boolean = true;
+  // removeChild(){
+  //   this.renderer.removeChild(this.host.nativeElement, this.message_bodyComp?.first.nativeElement);
+  // }
+  
+  ngOnInit() {
+    // this.renderer.removeChild(this.host.nativeElement,this.draggableElement?.nativeElement);
+  }
 }
