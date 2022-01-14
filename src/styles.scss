@@ -95,24 +95,24 @@ body {
 }
 
 .header-channel.header-channel {
-    color: rgba(255,255,255,0.5)
+    color: rgba(255, 12, 12, 0.5)
 }
 
 .chat.chat {
-    color: #cccccc
+    color: #9c5555
 }
 
 .post-name.post-name {
-    color: rgba(255,255,255,0.3)
+    color: rgba(4, 255, 66, 0.3)
 }
 
 .post.post {
-    border-color: rgba(0,0,0,0.3);
+    border-color: rgba(255, 211, 211, 0.3);
     background-color: #31353a
 }
 
 .post.post.me {
-    background-color: #2d3034
+    background-color: #4285dd
 }
 
 .post-avatar.post-avatar {
@@ -120,12 +120,12 @@ body {
 }
 
 .post-avatar--troll.post-avatar--troll {
-    color: rgba(255,255,255,0.2);
+    color: rgba(255, 120, 120, 0.2);
     background: rgba(0,0,0,0.2)
 }
 
 .time.time {
-    color: rgba(255,255,255,0.2)
+    color: rgba(5, 235, 128, 0.2)
 }
 
 .post-time-dot.post-time-dot {
@@ -133,17 +133,17 @@ body {
 }
 
 .post-message.post-message.unread .post-time-dot {
-    background-color: #ffd500
+    background-color: #947d0c
 }
 
 .post-time-tag.post-time-tag {
-    border-color: rgba(0,0,0,0.4);
-    background: #1f1f1f
+    border-color: rgba(235, 204, 204, 0.4);
+    background: #d68d8d
 }
 
 .chat.chat code,
 .chat.chat pre {
-    color: #b8ad7a;
+    color: #be0c65;
     border: 1px solid rgba(0,0,0,0.2);
     background-color: #2a2922
 }
@@ -153,14 +153,14 @@ body {
 }
 
 .chat.chat blockquote {
-    color: #6eb7f7;
+    color: #38f000;
     border: none;
-    border-left: 4px solid #3d9ff5;
-    background: #3d4148
+    border-left: 4px solid #ff3c00;
+    background: #e03b3b
 }
 
 .chat.chat hr {
-    border-color: rgba(255,255,255,0.1)
+    border-color: rgba(255, 0, 0, 0.1)
 }
 
 .message-avatar.message-avatar {
@@ -168,7 +168,7 @@ body {
 }
 
 .message-input.message-input {
-    color: #fff;
+    color: rgb(181, 246, 255);
     border-color: rgba(0,0,0,0.3);
     background-color: rgba(0,0,0,0.15);
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.06),0 1px 1px rgba(255,255,255,0.1);
