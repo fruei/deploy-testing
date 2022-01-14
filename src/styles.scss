@@ -4,69 +4,69 @@ body {
     background-color: gainsboro;
 }
 
-$day-color: hsl(160, 100%, 50%);
-$day-color-bg: hsl(310, 60%, 62%);
+// $day-color: hsl(160, 100%, 50%);
+// $day-color-bg: hsl(310, 60%, 62%);
 
-.theme-picker-item[data-theme="theme--day"] {
-    background-color: $day-color;
-}
+// .theme-picker-item[data-theme="theme--day"] {
+//     background-color: $day-color;
+// }
 
-.theme--day {
-    background-color: $day-color-bg;
+// .theme--day {
+//     background-color: $day-color-bg;
 
-    .button {
-        color: $day-color;
-        border-color: $day-color;
-        &:hover {
-            color: white;
-            background-color: lighten($day-color, 8%);
-        }
-        &:active {
-            background-color: darken($day-color, 5%);
-        }
-    }
+//     .button {
+//         color: $day-color;
+//         border-color: $day-color;
+//         &:hover {
+//             color: white;
+//             background-color: lighten($day-color, 8%);
+//         }
+//         &:active {
+//             background-color: darken($day-color, 5%);
+//         }
+//     }
 
-    .button--danger {
-        color: hsl(0, 100%, 94%);
-        border-color: hsla(0, 100%, 35%, 0);
-        background-color: hsl(0, 100%, 70%);
-        &:hover {
-            background-color: hsl(0, 100%, 60%);
-        }
-        &:active {
-            background-color: hsl(0, 100%, 80%);
-        }
-    }
+//     .button--danger {
+//         color: hsl(0, 100%, 94%);
+//         border-color: hsla(0, 100%, 35%, 0);
+//         background-color: hsl(0, 100%, 70%);
+//         &:hover {
+//             background-color: hsl(0, 100%, 60%);
+//         }
+//         &:active {
+//             background-color: hsl(0, 100%, 80%);
+//         }
+//     }
 
-    .button-down {
-        background-color: $day-color-bg;
-        &:hover {
-            color: white;
-            background-color: lighten($day-color, 10%);
-        }
-        &:active {
-            background-color: $day-color;
-        }
-        &.new {
-            box-shadow: 0 0 0 2px $day-color;
-        }
-    }
+//     .button-down {
+//         background-color: $day-color-bg;
+//         &:hover {
+//             color: white;
+//             background-color: lighten($day-color, 10%);
+//         }
+//         &:active {
+//             background-color: $day-color;
+//         }
+//         &.new {
+//             box-shadow: 0 0 0 2px $day-color;
+//         }
+//     }
 
-    .header-bar {
-        background-color: $day-color;
-    }
+//     .header-bar {
+//         background-color: $day-color;
+//     }
 
-    .post-message.unread .post-time-dot {
-        background-color: $day-color;
-    }
+//     .post-message.unread .post-time-dot {
+//         background-color: $day-color;
+//     }
 
-    .menu-item.isOn {
-        color: white;
-        background: $day-color;
-    }
+//     .menu-item.isOn {
+//         color: white;
+//         background: $day-color;
+//     }
 
-    .counter-button {
-        color: inherit;
-        border-color: hsla(0, 0%, 0%, 0.1);
-    }
-}
+//     .counter-button {
+//         color: inherit;
+//         border-color: hsla(0, 0%, 0%, 0.1);
+//     }
+// }
