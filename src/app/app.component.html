@@ -21,8 +21,6 @@
                 </div>
             </div>
         </div>
-        <form (submit)="submit()">
-            <input class="form-control" placeholder="Write a message" [value]="message" />
-            <button (click)="submit()">ENVIAR</button>
-        </form>
+        <input placeholder="Write a message" [(ngModel)]="message" />
+        <button (click)="submit()">ENVIAR</button>
     </div>
